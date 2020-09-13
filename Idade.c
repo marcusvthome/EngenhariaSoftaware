@@ -2,7 +2,7 @@
 
 int main () {
 
-	int AnoAtual, AnoNasc, Idade;
+	int AnoAtual, AnoNasc, Idade = 0;
 	char Nome[40];
 	 
 	printf("Informe o seu Nome:\n");
