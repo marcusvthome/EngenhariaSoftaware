@@ -2,23 +2,20 @@
 
 int main () {
 
-	int AnoAtual = 0;
-	
-	AnoNasc, Idade = 0
-	
-	char Nome[10];
+	int AnoAtual, AnoNasc, Idade;
+	char Nome[40];
 	 
 	printf("Informe o seu Nome:\n");
 	scanf("%s", Nome);
 	 
 	printf("Informe o ano de nascimento:\n");
-	scanf("%", &AnoNasc);
+	scanf("%d", &AnoNasc);
 	
 	printf("Informe o Ano Atual:\n");
-	scanf("%d", &Anoatual);
+	scanf("%d", &AnoAtual);
 	
-	idade =  AnoNas - AnoAtual;
+	Idade =  AnoAtual - AnoNasc;
 	
-	printf("Sua idade: %f", Idade);
-	
+	printf("Sua idade: %d", Idade);
+
 }
